@@ -4,3 +4,59 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo";
+}
+
+.body {
+    background-color: #FFE6F9;
+}
+
+
+.main-div {
+    margin: 0 auto;
+}
+
+.purple-div {
+    background-color: #990077;
+    height: 86px;
+    color: white;
+    
+}
+
+.instagram-div {
+    background-color: #FFFFFF;
+    height: 86px;
+}
+
+.logo {
+    height: 140px;
+    width: 140px;
+    
+}
+
+.instagram-div-content {
+    width: 80%;
+}
+
+.instagram-main-inner-content  {
+    height: 86px;
+}
+
+
+.instagram-inner-left-content {
+    height: 70px;
+    width: 70px;
+    margin-right: 18px;
+}
+
+.instagram-inner-right-p {
+    font-size: 17px;
+    line-height: 1.59;
+}
