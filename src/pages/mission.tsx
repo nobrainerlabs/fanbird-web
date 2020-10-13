@@ -1,7 +1,7 @@
 import Layout from '../components/layouts/blank';
 
 const Page = () => (
-  <Layout>
+<Layout>
     <div className="body h-screen">           
             
             <div className="main-div pt-24 flex justify-center items-center flex-col">
@@ -25,7 +25,7 @@ const Page = () => (
                     <a href="#">
                         <div className="instagram-main-inner-content flex p-7 flex-row items-center justify-start tracking-wide">
                             <div className="instagram-inner-left-content flex items-center flex-row justify-start text-sm rounded p-5 overflow-hidden leading-normal font-black">
-                                500 pts
+                            500 pts
                             </div>
 
                             <div className="instagram-inner-right-content h-full flex flex-col  pl-4 justify-center">
@@ -37,7 +37,7 @@ const Page = () => (
 
             </div>
         </div>
-  </Layout>
+</Layout>
 );
 
 export default Page;
