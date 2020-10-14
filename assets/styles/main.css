@@ -60,3 +60,15 @@
     font-size: 17px;
     line-height: 1.59;
 }
+
+.mission-header {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.instagram-div, .step-one-div, .step-two-div, .step-three-div {
+    border-radius: 14px;
+}
+
+.step-three-btn {
+    background-color: #c9c9c9;
+}
