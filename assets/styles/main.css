@@ -27,12 +27,13 @@
     background-color: #990077;
     height: 86px;
     color: white;
-    
+    width: 450px;
 }
 
 .instagram-div {
     background-color: #FFFFFF;
     height: 86px;
+    width: 450px;
 }
 
 .logo {
@@ -65,10 +66,12 @@
     color: rgba(0, 0, 0, 0.87);
 }
 
-.instagram-div, .step-one-div, .step-two-div, .step-three-div {
+.instagram-div, .purple-div, .step-one-div, .step-two-div, .step-three-div {
     border-radius: 14px;
+    width: 450px;
 }
 
 .step-three-btn {
     background-color: #c9c9c9;
 }
+

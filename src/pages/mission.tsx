@@ -43,7 +43,7 @@ const Page = () => (
                 </div>
 
                 <div className="step-two-div text-center text-xl h-48 bg-white rounded-xl mt-8 w-1/4">
-                    <a>
+                    <a href="#">
                     <h3 className="font-semibold text-xl pb-6 mt-4">Step 2</h3>
                     <p>Post on Instagram</p>
                     <p>Open up your Instagram app and upload a</p>
@@ -52,7 +52,7 @@ const Page = () => (
                 </div>
 
                 <div className="step-three-div text-center text-xl h-40 bg-white rounded-xl mt-8 w-1/4 mb-24">
-                    <a>
+                    <a href="#">
                     <h3 className="font-semibold text-xl pb-6 mt-4">Step 3</h3>
                     <p>Confirm upload</p>
                     <button className="step-three-btn tracking-wide border px-2 border-solid">Confirm Submission</button>
