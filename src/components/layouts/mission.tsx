@@ -1,9 +1,13 @@
+import Link from  "next/link";
+
 const Layout = ({ children }) => (
   <>
       <div className="body h-screen">             
             <div className="main-div pt-24 flex justify-center items-center flex-col">
                 <div className="logo text-center mb-4">
-                    <img className="logo-image rounded-full w-full h-full" src="../images/logo.png" />
+                  <Link href="/mission">
+                    <a><img className="logo-image rounded-full w-full h-full" src="../images/logo.png" /></a>
+                  </Link>
                 </div>
 
                 <div className="header-and-content text-center mb-4">
@@ -16,7 +20,7 @@ const Layout = ({ children }) => (
               {children}
             </div>
 
-        </div>
+      </div>
 
     <style jsx global>{`
       *,
