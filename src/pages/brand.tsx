@@ -12,7 +12,7 @@ const Page = () => (
     </div>
 
     <div className="instagram-div rounded-xl tracking-wide block">
-        <Link href="../mission">
+        <Link href="/mission">
             <a href="#">
                 <div className="instagram-main-inner-content flex p-7 flex-row items-center justify-start tracking-wide">
                     <div className="instagram-inner-left-content flex items-center flex-row justify-start text-sm rounded p-5 overflow-hidden leading-normal font-black">
