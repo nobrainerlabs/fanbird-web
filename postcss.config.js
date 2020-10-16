@@ -1,16 +1,19 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
-  theme: {
-    extend: {
-      colors: {
-        'accent-1': '#333',
-      },
-    },
-  },
-  variants: {},
-  plugins: [],
-}
+  plugins: [
+    'tailwindcss',
+    process.env.NODE_ENV === 'production'
+      ? [
+          '@fullhuman/postcss-purgecss',
+          {
+            content: [
+              './pages/**/*.{js,jsx,ts,tsx}',
+              './components/**/*.{js,jsx,ts,tsx}',
+            ],
+            defaultExtractor: (content) =>
+              content.match(/[\w-/:]+(?<!:)/g) || [],
+          },
+        ]
+      : undefined,
+    'postcss-preset-env',
+  ],
+};
