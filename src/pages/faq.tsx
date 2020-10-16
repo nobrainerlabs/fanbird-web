@@ -9,8 +9,9 @@ const Page = () => (
         headerTitle="Frequently Asked Questions"
         headerDescription=""
     >
-    <Faq1></Faq1>
     </Header>
+    <Faq1></Faq1>
+    
 </Layout>
 );
 
