@@ -1,17 +1,16 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    ...(process.env.NODE_ENV === 'production'
-      ? {
-          '@fullhuman/postcss-purgecss': {
-            content: [
-              './components/**/*.{js,jsx,ts,tsx}',
-              './pages/**/*.{js,jsx,ts,tsx}'
-            ],
-            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-          }
-        }
-      : {})
-  }
-};
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        'accent-1': '#333',
+      },
+    },
+  },
+  variants: {},
+  plugins: [],
+}
