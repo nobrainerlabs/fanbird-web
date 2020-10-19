@@ -4,7 +4,7 @@ const Component = ({}) => (
       <div className="mt-8 mx-auto max-w-screen-xl px-4 sm:px-6 md:mt-8 lg:mt-10">
         <div className="text-center">
           <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-            Data to enrich your
+            Welcome to Fanbird
             <br />
             <span className="text-indigo-600">online business</span>
           </h2>
