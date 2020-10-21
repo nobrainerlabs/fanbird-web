@@ -5,6 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
+    fontFamily: {
+      'raleway': ['Raleway'],
+      'commissioner': ['Commissioner'],
+      'inter': ['Inter'],
+    },
     extend: {},
   },
   variants: {},

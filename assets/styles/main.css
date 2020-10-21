@@ -5,7 +5,12 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Raleway&display=swap');
 
+@font-face{
+    font-family: "Inter";
+    src: url("../../public/Inter.ttf") format("truetype");
+}
 
 * {
     padding: 0;
@@ -75,3 +80,20 @@
     background-color: #c9c9c9;
 }
 
+.soon-h1 {
+    font-size: 5rem;
+    
+}
+
+
+.soon-input {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+
+.soon-submit {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+}
