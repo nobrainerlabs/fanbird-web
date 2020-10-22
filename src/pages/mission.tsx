@@ -12,7 +12,7 @@ const Page = () => {
   const [accessToken, setAccessToken] = useState('');
   const { code } = router.query;
 
-  useEffect(() => {
+  useEffect(() => { 
     console.log('code', code);
     if (code) {
       console.log('code2', code);
