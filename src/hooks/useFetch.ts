@@ -4,7 +4,7 @@ const useFetch = (url, options) => {
   const [error, setError] = React.useState(null);
   const [isLoading, setIsLoading] = React.useState(false);
   React.useEffect(() => {
-    const fetchData = async () => {
+    const doFetch = async () => {
       setIsLoading(true);
       try {
         const res = await fetch(url, options);
@@ -15,7 +15,7 @@ const useFetch = (url, options) => {
         setError(error);
       }
     };
-    fetchData();
+    doFetch();
   }, []);
   return { response, error, isLoading };
 };

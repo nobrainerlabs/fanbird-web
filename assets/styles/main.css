@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Raleway&display=swap');
 
+<<<<<<< HEAD
 @font-face{
     font-family: "Inter";
     src: url("../../public/Inter.ttf") format("truetype");
@@ -96,3 +97,5 @@
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
+=======
+>>>>>>> 1c9fb1952e438f488c89726ba0672b254eca375f

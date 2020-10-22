@@ -185,7 +185,6 @@ const Component = ({}) => (
               className="relative mx-auto"
               width={490}
               src="https://tailwindui.com/img/features/feature-example-1.png"
-              alt
             />
           </div>
         </div>
@@ -338,7 +337,6 @@ const Component = ({}) => (
                 className="relative mx-auto"
                 width={490}
                 src="https://tailwindui.com/img/features/feature-example-2.png"
-                alt
               />
             </div>
           </div>
