@@ -13,8 +13,8 @@ const Page = () => (
         <main className="soon-main flex flex-col justify-center items-center font-raleway mt-28">
             <span className="text-2xl tracking-wide font-raleway text-gray-700">- Launching early 2021 -</span>
             <div className="">
-            <h1 className="soon-h1 font-extrabold font-inter tracking-wider">Make customers</h1>
-            <h1 className="soon-h1 font-extrabold font-inter tracking-wider"> be your greatest fans</h1>
+            <h3 className="soon-h1 font-extrabold font-inter tracking-wider leading-none">Make customers</h3>
+            <h3 className="soon-h1 font-extrabold font-inter tracking-wider leading-none mb-8"> be your greatest fans</h3>
             </div>
             
             <span className="font-raleway text-2xl text-gray-700">Your people out there. Make campaigns, let your people spread your</span>
@@ -24,7 +24,7 @@ const Page = () => (
 
 
 
-        <div className="soon-input-area mt-12">
+        <div className="soon-input-area mt-16">
             <h3 className="font-black text-2xl font-raleway">We are currently invite only.</h3>
             <h3 className="font-black text-2xl font-raleway mb-4">Become a beta tester</h3>
             <form>        
