@@ -5,4 +5,94 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Raleway&display=swap');
 
+@font-face{
+    font-family: "Inter";
+    src: url("../../public/Inter.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo"; 
+}
+
+.body {
+    background-color: #FFE6F9;
+}
+
+
+.main-div {
+    margin: 0 auto;
+}
+
+.purple-div {
+    background-color: #990077;
+    height: 86px;
+    color: white;
+    width: 450px;
+}
+
+.instagram-div {
+    background-color: #FFFFFF;
+    height: 86px;
+    width: 450px;
+}
+
+.logo {
+    height: 140px;
+    width: 140px;
+    
+}
+
+.instagram-div-content {
+    width: 80%;
+}
+
+.instagram-main-inner-content  {
+    height: 86px;
+}
+
+
+.instagram-inner-left-content {
+    height: 70px;
+    width: 70px;
+    margin-right: 18px;
+}
+
+.instagram-inner-right-p {
+    font-size: 17px;
+    line-height: 1.59;
+}
+
+.mission-header {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.instagram-div, .purple-div, .step-one-div, .step-two-div, .step-three-div {
+    border-radius: 14px;
+    width: 450px;
+}
+
+.step-three-btn {
+    background-color: #c9c9c9;
+}
+
+.soon-h1 {
+    font-size: 5rem;
+    
+}
+
+
+.soon-input {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+
+.soon-submit {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
